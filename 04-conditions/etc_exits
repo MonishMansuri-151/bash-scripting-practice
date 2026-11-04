@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [ -f "/etc/passwd" ]; then
+    echo "File exist karti hai."
+else
+    echo "File exist nahi karti hai."
+fi
+
+
